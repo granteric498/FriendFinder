@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "0.0.1",
+  "description": "FriendFinder",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/granteric498/FriendFinder.git"
+  },
+  "author": "Grant Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/granteric498/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/granteric498/FriendFinder#readme"
+}
