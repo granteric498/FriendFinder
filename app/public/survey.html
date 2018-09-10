@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,22 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"></script>
 </head>
+
 <body>
 
-<br><br>
-<div class="container">
-    <h1>Survey Questions</h1>
-    <hr>
-    <h2>About You</h2>
-    <h4>Name (Required)</h4>
-    <input type="text" id="name" class="form-control" required>
-    <h4>Link to Photo Image (Required)</h4>
-    <input type="text" id="photo" class="form-control" required>
-    <hr>
-    <h2>Question 1</h2>
-    <h4>What's Your Favorite Animal?</h4>
-        <select>
+    <br><br>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr>
+        <h2>About You</h2>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+        <hr>
+        <h2>Question 1</h2>
+        <h4 for="question1">What's Your Favorite Animal?</h4>
+        <select id="question1">
             <option selected value="0">Select an Option</option>
             <option value="1">Bear</option>
             <option value="2">Bunny</option>
@@ -32,9 +34,9 @@
             <option value="4">Dog</option>
             <option value="5">Dolphin</option>
         </select>
-    <h2>Question 2</h2>
-    <h4>Pick a color:</h4>
-        <select>
+        <h2>Question 2</h2>
+        <h4 for="question2">Pick a color:</h4>
+        <select id="question2">
             <option selected value="0">Select an Option</option>
             <option value="1">Blue</option>
             <option value="2">Green</option>
@@ -42,9 +44,9 @@
             <option value="4">Purple</option>
             <option value="5">Red</option>
         </select>
-    <h2>Question 3</h2>
-    <h4>Pick something you can't live without:</h4>
-        <select>
+        <h2>Question 3</h2>
+        <h4 for="question3">Pick something you can't live without:</h4>
+        <select id="question3">
             <option selected value="0">Select an Option</option>
             <option value="1">Car</option>
             <option value="2">Cell Phone</option>
@@ -52,9 +54,9 @@
             <option value="4">Pets</option>
             <option value="5">Pizza</option>
         </select>
-    <h2>Question 4</h2>
-    <h4>How many pets do you have?</h4>
-        <select>
+        <h2>Question 4</h2>
+        <h4 for="question4">How many pets do you have?</h4>
+        <select id="question4">
             <option selected value="0">Select an Option</option>
             <option value="1">Zero</option>
             <option value="2">One</option>
@@ -62,9 +64,9 @@
             <option value="4">Three</option>
             <option value="5">Four or more</option>
         </select>
-    <h2>Question 5</h2>
-    <h4>What's your favorite sport?</h4>
-        <select>
+        <h2>Question 5</h2>
+        <h4 for="question5">What's your favorite sport?</h4>
+        <select id="question5">
             <option selected value="0">Select an Option</option>
             <option value="1">Baseball</option>
             <option value="2">Basketball</option>
@@ -72,9 +74,9 @@
             <option value="4">Soccer</option>
             <option value="5">Tennis</option>
         </select>
-    <h2>Question 6</h2>
-    <h4>What's your favorite food?</h4>
-        <select>
+        <h2>Question 6</h2>
+        <h4 for="question6">What's your favorite food?</h4>
+        <select id="question6">
             <option selected value="0">Select an Option</option>
             <option value="1">Fruit</option>
             <option value="2">Ice Cream</option>
@@ -82,9 +84,9 @@
             <option value="4">Salad</option>
             <option value="5">Steak</option>
         </select>
-    <h2>Question 7</h2>
-    <h4>Pick a season:</h4>
-        <select>
+        <h2>Question 7</h2>
+        <h4 for="question7">Pick a season:</h4>
+        <select id="question7">
             <option selected value="0">Select an Option</option>
             <option value="1">Fall</option>
             <option value="2">Spring</option>
@@ -92,9 +94,9 @@
             <option value="4">Winter</option>
             <option value="5">I love them all!</option>
         </select>
-    <h2>Question 8</h2>
-    <h4>Pick a city:</h4>
-        <select>
+        <h2>Question 8</h2>
+        <h4 for="question8">Pick a city:</h4>
+        <select id="question8">
             <option selected value="0">Select an Option</option>
             <option value="1">Chicago</option>
             <option value="2">Los Angeles</option>
@@ -102,9 +104,9 @@
             <option value="4">New York</option>
             <option value="5">San Francisco</option>
         </select>
-    <h2>Question 9</h2>
-    <h4>Pick a TV Show:</h4>
-        <select>
+        <h2>Question 9</h2>
+        <h4 for="question9">Pick a TV Show:</h4>
+        <select id="question9">
             <option selected value="0">Select an Option</option>
             <option value="1">Friends</option>
             <option value="2">How I Met Your Mother</option>
@@ -112,9 +114,9 @@
             <option value="4">Parks and Recreation</option>
             <option value="5">The Simpsons</option>
         </select>
-    <h2>Question 10</h2>
-    <h4>Choose a cookie:</h4>
-        <select>
+        <h2>Question 10</h2>
+        <h4 for="question10">Choose a cookie:</h4>
+        <select id="question10">
             <option selected value="0">Select an Option</option>
             <option value="1">Chocolate Chip</option>
             <option value="2">Oatmeal Raisin</option>
@@ -122,6 +124,91 @@
             <option value="4">Sugar</option>
             <option value="5">White Chip Macademia Nut</option>
         </select>
-</div>
+        <br><br>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+        <br>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/granteric498/FriendFinder">GitHub
+                Repo</a></p>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your best match is: </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="userMatch"></p>
+                    <img id="userMatchImage" width="300" src="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var choicesArray = [];
+        var friendsArray = [];
+
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+
+            for (let i = 1; i <= 10; i++) {
+                choicesArray.push(parseInt($("#question" + i).val()))
+            };
+
+            $.get("/api/friends/", function (data) {
+                for (i in data) {
+                    for (a in data[i].scores) {
+                        var test = Math.abs(data[i].scores[a] - choicesArray[a]);
+                    };
+                    friendsArray.push(test);
+                };
+
+                console.log(friendsArray);
+
+                for (i in friendsArray) {
+                    if (friendsArray[i] === 0) {
+                        $("#userMatch").html(data[i].name);
+                        $("#userMatchImage").attr("src", data[i].photo);
+                    }
+                }
+            });
+
+            var profile = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val(),
+                scores: choicesArray,
+            };
+
+            $.post("/api/friends", profile).done(function (data) {
+                // Show the matching friend to the user:
+                $(".modal").show();
+
+                // Reset the form
+                $("#name").val("");
+                $("#photo").val("");
+                $("#question1").val("0");
+                $("#question2").val("0");
+                $("#question3").val("0");
+                $("#question4").val("0");
+                $("#question5").val("0");
+                $("#question6").val("0");
+                $("#question7").val("0");
+                $("#question8").val("0");
+                $("#question9").val("0");
+                $("#question10").val("0");
+                choicesArray = [];
+            });
+        });
+
+        $(".close").on("click", function (event) {
+            $(".modal").hide();
+        });
+    </script>
+
 </body>
+
 </html>
